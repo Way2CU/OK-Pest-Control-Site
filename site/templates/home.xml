@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE document SYSTEM "../units/schema/language.dtd">
 <document>
-	<cms:var name="_DOCTYPE"/>
-	<html lang="$language" cms:eval="lang">
+	<html lang="$language" dir="$language_rtl ? 'rtl' : 'ltr'" cms:eval="lang,dir">
 		<head>
 			<title><cms:text constant="site_title"/></title>
 			<meta property="og:url" content="http://okpestcontrol.co.il/" />
@@ -10,7 +9,7 @@
 			<cms:module name="head_tag" action="print_tag"/>
 		</head>
 
-		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
+		<body>
 		<cms:raw file="parts/gtm.txt"/>
 		<cms:desktop>
 			<header>
@@ -18,7 +17,7 @@
 				<h1><cms:text constant="header_title"/></h1>
 				<span><cms:text constant="licence"/></span>
 				<a
-					href="'tel:'.urlencode(Language::getText('number'))"
+					href="'tel:'.urlencode(Language::get_text('number'))"
 					cms:eval="href"
 					class="phone"
 					>
@@ -111,7 +110,7 @@
 
 			<cms:mobile>
 				<a
-				href="'tel:'.urlencode(Language::getText('number'))"
+				href="'tel:'.urlencode(Language::get_text('number'))"
 				cms:eval="href"
 				class="call"
 				>
@@ -149,7 +148,7 @@
 					<h2><cms:text constant="header_title"/></h2>
 					<span><cms:text constant="licence"/></span>
 					<a
-						href="'tel:'.urlencode(Language::getText('number'))"
+						href="'tel:'.urlencode(Language::get_text('number'))"
 						cms:eval="href"
 						class="phone"
 						>
@@ -169,7 +168,7 @@
 						<h2><cms:text constant="header_title"/></h2>
 						<span><cms:text constant="licence"/></span>
 						<a
-							href="'tel:'.urlencode(Language::getText('number'))"
+							href="'tel:'.urlencode(Language::get_text('number'))"
 							cms:eval="href"
 							class="phone"
 							>

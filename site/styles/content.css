@@ -58,7 +58,6 @@
 
 div.cetifications_article {
 	display: block;
-	text-align: center;
 }
 
 div.cetifications_article p {
@@ -71,7 +70,7 @@ div.cetifications_article p {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	padding-right: 20px;
-	padding-left: 50px;
+	padding-left: 30px;
 	color: #15a51d;
 	font-weight: 700;
 	font-size: 1em;
@@ -82,27 +81,20 @@ div.cetifications_article p {
 }
 
 div.cetifications_article p:nth-of-type(1) {
-	background-image: url(../images/iso.jpg);
-	background-repeat: no-repeat;
-	background-position: -30px center;
-	background-size:160px auto;
-}
-
-div.cetifications_article p:nth-of-type(2) {
 	background-image: url(../images/irgun-madbirey-israel.jpg);
 	background-repeat: no-repeat;
 	background-position: 10px center;
 	background-size:120px 80px;
 }
 
-div.cetifications_article p:nth-of-type(3) {
+div.cetifications_article p:nth-of-type(2) {
 	background-image: url(../images/haganat-hasviva.jpg);
 	background-repeat: no-repeat;
 	background-position: 10px center;
 	background-size:120px 80px;
 }
 
-div.cetifications_article p:nth-of-type(4) {
+div.cetifications_article p:nth-of-type(3) {
 	background-image: url(../images/aig.jpg);
 	background-repeat: no-repeat;
 	background-position: 10px center;
