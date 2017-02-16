@@ -6,7 +6,7 @@ site:
   root: httpdocs
   username: okpest
   caracal_branch: v0.3.x
-  # ip_address: 0.0.0.0
+  ip_address: 198.251.79.75
   # owner: Some Person
   # plan: Unlimited
   # database_type: 'mysql'
