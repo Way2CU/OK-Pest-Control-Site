@@ -97,19 +97,6 @@
 						template="parts/video.xml"
 						/>
 				</div>
-
-				<cms:desktop>
-					<span></span>
-				</cms:desktop>
-
-				<cms:mobile>
-					<a
-						href="'tel:'.urlencode(Language::get_text('number'))"
-						cms:eval="href"
-						class="call"
-						>
-					</a>
-				</cms:mobile>
 			</div>
 
 			<div class="insects wrap">
