@@ -31,9 +31,7 @@
 							action="show"
 							text_id="contact_form"
 							/>
-
 					</div>
-
 				</header>
 			</cms:desktop>
 
@@ -57,7 +55,6 @@
 						action="show"
 						text_id="contact_form"
 						/>
-
 				</div>
 			</cms:mobile>
 
@@ -113,7 +110,6 @@
 						>
 					</a>
 				</cms:mobile>
-
 			</div>
 
 			<div class="insects wrap">
