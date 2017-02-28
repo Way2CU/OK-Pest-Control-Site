@@ -220,10 +220,10 @@ div.cetifications_article p:nth-of-type(1):before {
 	top: -90px;
 	left: 50%;
 	margin-left: -60px;
-	background-image: url(../images/iso.jpg);
+	background-image: url(../images/aig.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-size: 160px auto;
+	background-size: 120px auto;
 	width: 120px;
 	height: 80px;
 }
